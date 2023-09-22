@@ -1,0 +1,203 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(19, 40px);
+    grid-template-rows: repeat(14, 40px);
+    gap: px;
+    width: 608px;
+    background-color: ;
+}
+
+.container > * {
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.b1{
+    background-color: bisque;
+    grid-row: span 3;
+}
+.b2{
+    background-color: bisque;
+    grid-column: span 7;
+}
+.b3{
+    background-color: bisque;
+    grid-column: span 9;
+}
+.b4{
+    background-color: bisque;
+    grid-row: span 7;
+}
+.b5{
+    background-color: yellow;
+    grid-row: span 7;
+}
+
+.b6{
+    background-color: indigo;
+    grid-row: span 2;
+    grid-column: span 7;
+}
+.b7{
+    background-color: bisque;
+    grid-row: span 2;
+    grid-column: span 4;
+}
+.b8{
+    background-color: indigo;
+    grid-row: span 2;
+    grid-column: span 5;
+}
+
+.b9{
+    background-color: black;
+    grid-row: span 6;
+}
+.b10{
+    background-color: bisque;
+    grid-row: span 6;
+    grid-column: span 2;
+}
+.b11{
+    background-color: black;
+    grid-row: span 10;
+}
+
+.b12{
+    background-color: bisque;
+    grid-row: span 4;
+    grid-column: span 3;
+}
+.b13{
+    background-color: bisque;
+    grid-row: span 4;
+    grid-column: span 1;
+}
+.b14{
+    background-color: yellow;
+    grid-row: span 4;
+    grid-column: span 4;
+}
+.b15{
+    background-color: red;
+    grid-row: span 4;
+    grid-column: span 4;
+}
+.b16{
+    background-color: red;
+    grid-row: span 4;
+    grid-column: span 1;
+}
+
+.b17{
+    background-color: yellow;
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.b18{
+    background-color: red;
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+.b19{
+    background-color: blue;
+    grid-row: span 2;
+    grid-column: span 4;
+}
+.b20{
+    background-color: bisque;
+    grid-row: span 2;
+    grid-column: span 4;
+}
+.b21{
+    background-color: bisque;
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.b22{
+    background-color: black;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.b23{
+    background-color: bisque;
+    grid-row: span 4;
+    grid-column: span 1;
+}
+.b24{
+    background-color: red;
+    grid-row: span 4;
+    grid-column: span 2;
+}
+.b25{
+    background-color: yellow;
+    grid-row: span 5;
+    grid-column: span 1;
+}
+
+.b26{
+    background-color: bisque;
+    grid-row: span 3;
+    grid-column: span 5;
+}
+.b27{
+    background-color: bisque;
+    grid-row: span 3;
+    grid-column: span 4;
+}
+.b28{
+    background-color: blue;
+    grid-row: span 3;
+    grid-column: span 2;
+}
+
+.b29{
+    background-color: yellow;
+    grid-row: span 3;
+    grid-column: span 1;
+}
+
+.b30{
+    background-color: bisque;
+    grid-row: span 3;
+    grid-column: span 2;
+    
+}
+
+.b31{
+    background-color: bisque;
+    grid-row: span 1;
+    grid-column: span 4;
+    order: 1;
+}
+.b32{
+    background-color: red;
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+.b33{
+    background-color: black;
+    grid-row: span 2;
+    grid-column: span 6;
+}
+
+.b34{
+    background-color: bisque;
+    grid-row: span 2;
+    grid-column: span 5;
+}
